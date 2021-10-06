@@ -1,3 +1,22 @@
+.right {
+    float: right;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 300px;
+    max-width: 300px;
+}
+
+.center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid #FFFF00;
+    padding: 10px;
+    }
+
 .headshot-img {
-    border-radius: 50%;
+    width:200px;
+    height:200px;
+    border-radius:50%;
   }
